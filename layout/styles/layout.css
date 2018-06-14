@@ -921,7 +921,10 @@ textarea:focus,
 .imgover:hover::after {
 	color: #FFFFFF;
 }
-
+.change_color:hover {
+	transition: all .3s ease-in-out;
+	color: black;
+}
 
 /* Rows */
 
