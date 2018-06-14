@@ -934,8 +934,10 @@ textarea:focus,
 }
 
 .row1 {
+	transition: 3s linear;
 	color: #FFFFFF;
 	background-color: rgba(0, 0, 0, .2);
+	position: fixed;
 }
 
 .row2 {
