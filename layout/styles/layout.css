@@ -1259,6 +1259,13 @@ table a,
 	.group .clear>*:last-child {
 		margin-bottom: 0;
 	}
+	.group {
+		text-align: center;
+		display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	}
 	/* Experimental - Needs more testing in different situations, stops double margin when stacking */
 	.one_half,
 	.one_third,
@@ -1327,4 +1334,3 @@ table a,
 		font-size: 1.6rem;
 	}
 }
-
